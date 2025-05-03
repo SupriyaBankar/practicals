@@ -1,6 +1,8 @@
 https://github.com/SupriyaBankar/practicals.git
 
-git clone https://github.com/SupriyaBankar/practicals.git
+1.go to  console goo cloud->console->dasboard->create project->open cloud shell terminal then write
 
- cd practicals
-python main.py
+     git clone https://github.com/SupriyaBankar/practicals.git
+     
+      cd practicals
+     python main.py
