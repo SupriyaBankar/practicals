@@ -1,8 +1,19 @@
+
 https://github.com/SupriyaBankar/practicals.git
 
+
+for google app engine
 1.go to  console goo cloud->console->dasboard->create project->open cloud shell terminal then write
 
      git clone https://github.com/SupriyaBankar/practicals.git
      
       cd practicals
      python main.py
+
+
+for salseforce app 
+1.goto salses force.com
+login
+bankarsupriya2534@agentforce.com
+Supriya@123
+2. then goto setup->home->App->Appmanager->new lightening app->fill fieds->save->app luncher type our app name->your app is ready to play
