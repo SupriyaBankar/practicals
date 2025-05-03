@@ -3,12 +3,16 @@ https://github.com/SupriyaBankar/practicals.git
 
 
 for google app engine
-1.go to  console goo cloud->console->dasboard->create project->open cloud shell terminal then write
+1.go to  console goo cloud->console->dasboard->create project->
+open cloud shell terminal then write
 
      git clone https://github.com/SupriyaBankar/practicals.git
      
       cd practicals
      python main.py
+
+if cpp code 
+then write g++ file_name.cpp
 
 
 for salseforce app 
