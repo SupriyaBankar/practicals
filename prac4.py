@@ -15,7 +15,7 @@ y =data['MEDV']
 scatterplot(x=x,y=y)
 
 from sklearn.model_selection import train_test_split
-xtest,ytest,xtrain,ytrain = train_test_split(x,y,test_size=0.2)
+xtrain,xtest,ytrain,ytest = train_test_split(x,y,test_size=0.2)
 
 from sklearn.linear_model import LinearRegression
 lm =LinearRegression()
@@ -32,7 +32,7 @@ x =data['RM']
 y =data['MEDV']
 regplot(x=x,y=y)
 
-pred =model.prediction(xtest)
+pred =model.predict(xtest)
 
 from sklearn.metrics import mean_absolute_error
 mean_absolute_error(ytest,pred)
